@@ -3,16 +3,23 @@
   justify-content: center;
   gap: 10px;
 }
-.join__networks-item {
-  color: $accent-1;
+
+.join__footer-networks {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 44px;
+  min-height: 44px;
   background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 50%;
+  color: $accent-1;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
   &:focus {
     color: $accent-1;
     background-color: $background-col-4;
   }
 }
-
 .join-title {
   margin-top: 0.9em;
   margin-bottom: 1.42em;

@@ -14,7 +14,7 @@
   color: $social-bgc;
   transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
   &:hover,
-  &focus {
+  &:focus {
     color: $accent-1;
     background-color: $background-col-4;
   }
