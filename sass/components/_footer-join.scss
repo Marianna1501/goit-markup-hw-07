@@ -1,0 +1,63 @@
+.join__networks-footer {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.join__networks-item {
+  color: $accent-1;
+  background-color: rgba(255, 255, 255, 0.1);
+  &:hover,
+  &:focus {
+    color: $accent-1;
+    background-color: $background-col-4;
+  }
+}
+
+.join-title {
+  margin-top: 0.9em;
+  margin-bottom: 1.42em;
+  color: $accent-1;
+  font-weight: 700;
+  font-size: 0.875em;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.join-list {
+  margin-left: 4.375em;
+}
+
+/* Subscribe */
+
+.subscr {
+  margin-left: 93px;
+}
+.subscr-form {
+  display: flex;
+}
+.subscr-title {
+  margin-top: 0.9em;
+  margin-bottom: 1.42em;
+  color: $accent-1;
+  font-weight: 700;
+  font-size: 0.875em;
+  line-height: 1;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.subscr-placegolder {
+  min-width: 358px;
+  max-height: 50.47px;
+  margin-right: 10px;
+  color: $accent-1;
+  padding: 15px 16px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.icon-subscr {
+  margin-left: 10px;
+  fill: currentColor;
+}

@@ -1,0 +1,85 @@
+//buttons
+.button {
+  padding: 0;
+  margin: 0;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.06em;
+  color: $accent-1;
+  background-color: $background-col-4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.board-button {
+  padding: 10px 32px;
+  &:hover,
+  &:focus {
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  }
+}
+
+.button-filter:not(:last-child) {
+  margin-right: 8px;
+}
+.button-filter__style {
+  background-color: $background-col-2;
+  color: $title-text-color;
+  letter-spacing: 0.03em;
+  font-weight: 500;
+  padding: 6px 22px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover,
+  &:focus {
+    background-color: $background-col-4;
+    color: $accent-1;
+  }
+}
+
+.button-submit {
+  align-self: center;
+  min-width: 200px;
+  min-height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  color: $accent-1;
+  background-color: $background-col-4;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: none;
+  &:hover,
+  &:focus {
+    background-color: #188ce8;
+  }
+}
+
+.subscr-button__send {
+  display: flex;
+  padding: 10px 29px;
+}
+.modal-button__close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  background-color: #fff;
+  outline: 1px solid rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  &:hover {
+    color: $accent-2;
+  }
+}

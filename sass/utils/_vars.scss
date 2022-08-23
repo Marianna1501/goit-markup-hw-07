@@ -1,0 +1,45 @@
+//Font
+$main-font-family: 'Roboto', sans-serif;
+$logo-font-family: 'Raleway', sans-serif;
+
+//color
+$primary-text-color: #757575;
+$title-text-color: #212121;
+$footer-contacts: rgba(255, 255, 255, 0.6);
+$background-col-2: #f5f4fa;
+$background-col-3: #2f303a;
+$background-col-4: #2196f3;
+$background-col-wt: #ffffff;
+$background-backdrop: rgba(0, 0, 0, 0.2);
+$bacground-hidden-text: #2196f3;
+$accent-1: #ffffff;
+$accent-2: #2196f3;
+$accent-3: #000000;
+$social-bgc: #afb1b8;
+$social-join: rgba(255, 255, 255, 0.1);
+$border-form-col: rgba(33, 33, 33, 0.2);
+
+body {
+  font-family: $main-font-family;
+  font-style: normal;
+  background-color: $background-col-wt;
+  color: $primary-text-color;
+}
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 0 15px;
+}
+.title {
+  color: $title-text-color;
+  font-weight: 700;
+  font-size: 2.25em;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 1.39em;
+}

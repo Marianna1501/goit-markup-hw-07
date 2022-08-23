@@ -1,0 +1,42 @@
+/* our works */
+
+.functions-title {
+  margin-bottom: 1.39em;
+  color: $title-text-color;
+  font-weight: 700;
+  font-size: 2.25em;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 1.39em;
+}
+.functions-list {
+  display: flex;
+}
+
+.functions-list {
+  column-gap: 30px;
+}
+
+.function-poster {
+  position: relative;
+}
+
+.functions-desct {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  margin-bottom: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 70px;
+  font-weight: 700;
+  font-size: 0.875em;
+  line-height: 1.28;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: $accent-1;
+  background-color: rgba(47, 48, 58, 0.8);
+}
