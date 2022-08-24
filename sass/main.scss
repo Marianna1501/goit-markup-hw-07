@@ -1,5 +1,6 @@
-@import './utils/vars';
 @import './base/normalize';
+@import './components/body';
+@import './utils/vars';
 @import './utils/section-container';
 @import './utils/reset';
 @import './components/logo';
@@ -15,10 +16,5 @@
 @import './components/clients';
 @import './components/portfolio-filter';
 @import './components/portfolio-projects';
-
-
-@import'./components/footer';
-@import'./components/footer-join';
-
-
-
+@import './components/footer';
+@import './components/footer-join';
